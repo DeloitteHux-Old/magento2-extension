@@ -4,7 +4,7 @@ namespace Magnetic\Connector\Block;
 class code extends \Magento\Framework\View\Element\Template
 {
 	 /**
-     * @var \Amasty\HelloWorld\Helper\Data
+     * @var \Magnetic\Connector\Helper\Data
      */
     protected $_helper;
 
