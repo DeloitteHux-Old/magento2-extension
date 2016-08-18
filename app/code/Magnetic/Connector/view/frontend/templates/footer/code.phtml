@@ -1,0 +1,14 @@
+
+<!-- Magnetic Connector <?php echo $this->getVersion() ?> -->
+<?php if($this->isEnabled()): ?>
+<script>
+	(function(d,c,x,s,e) {
+		s = d.createElement(x);
+		s.src = 'https://t.p.mybuys.com/clients/' + c + '/js/quickstart.js';
+		s.async = true;
+		s.type = 'text/javascript';
+		e = d.getElementsByTagName(x)[0];
+		e.parentNode.insertBefore(s, e);
+	})(document,'<?php echo $this->getIdentifier() ?>','script');
+</script>
+<?php endif; ?>

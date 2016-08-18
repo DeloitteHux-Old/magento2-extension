@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Magento/Store/etc/config.xsd">
+    <default>
+        <magnetic_connector>
+            <code>
+                <enable>0</enable>
+                <identifier></identifier>
+            </code>
+        </magnetic_connector>
+    </default>
+</config>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../Magento/Config/etc/system_file.xsd">
+    <system>
+        <tab id="magnetic" translate="label" sortOrder="100000">
+            <label>Magnetic</label>
+        </tab>
+        <section id="magnetic_connector" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Website Code</label>
+            <tab>magnetic</tab>
+            <resource>Magnetic_Connector::magnetic_connector</resource>
+            <group id="code" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Website Code</label>
+                <field id="enable" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Enable Website Code</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="identifier" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Identifier</label>
+                    <comment>Enter Identifier provided by Magnetic</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
