@@ -12,7 +12,7 @@ class code extends \Magento\Framework\View\Element\Template
     public function __construct(
         \Magento\Framework\View\Element\Template\Context $context,
         array $data = [],
-        \Magnetic\connector\Helper\Data $helper
+        \Magnetic\Connector\Helper\Data $helper
     ) {
         parent::__construct($context, $data);
 
